@@ -303,5 +303,5 @@ template {
 [hidden] {
   display: none; }
 
-main {
-  background-color: green; }
+.logo__img {
+  max-width: 150px; }
