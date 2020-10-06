@@ -303,5 +303,43 @@ template {
 [hidden] {
   display: none; }
 
+.container {
+  max-width: 1250px;
+  margin: auto; }
+
+.button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase; }
+
+.header {
+  background-color: #FFFFFF;
+  padding: 30px 0; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .logo__img {
   max-width: 150px; }
+
+.nav__item {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 20px; }
+
+.phone {
+  color: #E74C3C;
+  font-weight: 700;
+  text-decoration: none; }
+
+.contacts__phone {
+  margin-right: 50px; }
+
+body {
+  font-family: sans-serif;
+  font-size: 14px; }
