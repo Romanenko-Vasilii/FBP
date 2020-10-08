@@ -74,6 +74,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -311,7 +312,12 @@ template {
   padding: 13px 20px;
   border: none;
   border-radius: 3px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
+  .button--red {
+    background-color: #E74C3C;
+    color: #FFFFFF;
+    font-weight: 700; }
 
 .header {
   background-color: #FFFFFF;
