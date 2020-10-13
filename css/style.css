@@ -318,6 +318,14 @@ template {
     background-color: #E74C3C;
     color: #FFFFFF;
     font-weight: 700; }
+  .button--hero {
+    border: 5px solid #FFFFFF;
+    font-weight: 600;
+    padding: 13px 60px;
+    display: flex;
+    margin: auto;
+    background: transparent;
+    color: #FFFFFF; }
 
 .header {
   background-color: #FFFFFF;
@@ -345,6 +353,28 @@ template {
 
 .contacts__phone {
   margin-right: 50px; }
+
+.hero {
+  background: #000000 url("../img/hero-bg2.jpg") no-repeat center;
+  height: 78vh;
+  color: #FFFFFF;
+  display: flex; }
+  .hero__text {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 25px; }
+
+.title {
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 300px;
+  color: grey; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
 
 body {
   font-family: sans-serif;
