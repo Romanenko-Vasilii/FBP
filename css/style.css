@@ -318,6 +318,11 @@ template {
     background-color: #E74C3C;
     color: #FFFFFF;
     font-weight: 700; }
+    .button--red:hover {
+      background: #FFFFFF;
+      color: #E74C3C;
+      font-weight: 700;
+      box-shadow: 0 0 25px #E74C3C; }
   .button--hero {
     border: 5px solid #FFFFFF;
     font-weight: 600;
@@ -326,6 +331,11 @@ template {
     margin: auto;
     background: transparent;
     color: #FFFFFF; }
+    .button--hero:hover {
+      background: #FFFFFF;
+      color: #000000;
+      font-weight: 700;
+      box-shadow: 0 0 15px #FFFFFF; }
 
 .header {
   background-color: #FFFFFF;
@@ -386,6 +396,27 @@ template {
   text-transform: uppercase;
   text-align: center;
   color: #FFFFFF; }
+
+.motto {
+  background: #FFFFFF;
+  padding: 50px 0; }
+  .motto__text {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    display: block; }
+    .motto__text::after {
+      content: '';
+      width: 100px;
+      height: 10px;
+      background-color: #E74C3C;
+      display: block;
+      margin: auto;
+      margin-top: 30px; }
+  .motto__guarantees {
+    font-size: 34px;
+    text-align: center; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
