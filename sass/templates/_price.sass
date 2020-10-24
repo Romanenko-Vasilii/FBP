@@ -1,0 +1,58 @@
+.row
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+.col
+  flex-basis: 32%
+  text-align: center
+  background-color: #f7f7f7
+  padding: 15px
+  border: solid 1px #E1E4E8FF
+.price
+  max-width: 100%
+  padding: 0 0 50px 0
+  &__title
+    text-transform: uppercase
+    font-size: 32px 
+    color: $dark
+    text-align: center
+    font-weight: 700
+    padding-top: 20px
+    &::after
+      content: ''
+      width: 100px
+      height: 10px
+      background-color: $dark
+      display: block
+      margin: auto
+      margin-top: 30px
+ul
+  padding: 0
+li
+  list-style-type: none
+  color: #444
+  font-size: 14px
+  line-height: 1.6
+  font-weight: 400
+  padding: 12px 0
+  border-bottom: solid 1px #E1E4E8FF
+.card
+  &__rate
+    color: $red
+    font-weight: bold
+    font-size: 30px
+    border-bottom: solid 1px #E1E4E8FF
+    padding: 12px 0
+    
+  &__wrap
+    max-width: 90%
+    margin: 0 auto
+    
+  &__caption
+    text-transform: uppercase
+    font-weight: 500
+    color: #555
+    font-size: 22px
+    padding: 15px 0px
+    border-bottom: 1px solid #ddd
+  

@@ -465,6 +465,7 @@ template {
     padding-right: 10px; }
 
 .card__text {
+  max-width: 80%;
   margin-left: 25px;
   margin-right: 10px;
   text-align: left;
@@ -483,8 +484,70 @@ template {
   font-weight: 400; }
 
 .card__img {
-  margin-left: -85px;
+  margin-left: -81px;
   max-width: 100%; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.col {
+  flex-basis: 32%;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border: solid 1px #E1E4E8FF; }
+
+.price {
+  max-width: 100%;
+  padding: 0 0 50px 0; }
+  .price__title {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px; }
+    .price__title::after {
+      content: '';
+      width: 100px;
+      height: 10px;
+      background-color: #000000;
+      display: block;
+      margin: auto;
+      margin-top: 30px; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style-type: none;
+  color: #444;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  padding: 12px 0;
+  border-bottom: solid 1px #E1E4E8FF; }
+
+.card__rate {
+  color: #E74C3C;
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom: solid 1px #E1E4E8FF;
+  padding: 12px 0; }
+
+.card__wrap {
+  max-width: 90%;
+  margin: 0 auto; }
+
+.card__caption {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #555;
+  font-size: 22px;
+  padding: 15px 0px;
+  border-bottom: 1px solid #ddd; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
@@ -492,3 +555,6 @@ template {
 body {
   font-family: sans-serif;
   font-size: 14px; }
+
+img {
+  max-width: 100%; }
