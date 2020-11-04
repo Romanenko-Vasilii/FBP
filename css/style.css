@@ -369,6 +369,8 @@ template {
   font-weight: 700;
   text-transform: uppercase;
   margin-right: 20px; }
+  .nav__item:hover {
+    color: #E74C3C; }
 
 .phone {
   color: #E74C3C;
@@ -428,7 +430,7 @@ template {
     text-align: center; }
 
 .service {
-  background-color: #262626FF;
+  background: #262626FF url(../img/service/bg-3.png);
   padding: 60px 20px 60px 20px; }
   .service__text {
     color: #777;
@@ -646,6 +648,31 @@ li {
   .slick-next:before {
     font-size: 40px;
     opacity: 1; }
+
+.office {
+  background: url("../img/formbg-33.jpg");
+  height: 65vh;
+  position: relative;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 700; }
+  .office::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .office__contant {
+    position: relative; }
+  .office__title {
+    margin: 0;
+    padding-top: 20px;
+    color: #FFFFFF; }
+  .office__img {
+    max-width: 25px;
+    max-height: 25px; }
+  .office__town {
+    display: flex;
+    align-items: center; }
 
 *, *:before, *:after {
   box-sizing: border-box; }
