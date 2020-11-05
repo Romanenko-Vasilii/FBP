@@ -1,0 +1,58 @@
+.office
+  background: url('../img/formbg-3.jpg') no-repeat center / cover
+  min-height: 78vh
+  position: relative
+  color: rgba(255,255,255,0.6)
+  font-weight: 700
+  padding-bottom: 100px
+  
+  &::before
+    content: ''
+    position: absolute
+    min-height: 100%
+    width: 100%
+    background-color: rgba(0,0,0,0.7) 
+  &__contant
+    position: relative
+    padding-top: 100px
+    display: flex
+    align-items: flex-start
+     
+  &__form
+    position: relative
+    width: 60%
+    height: 600px
+    border: 2px solid $light
+    margin-bottom: 30px
+.address
+  max-width: 33%
+  position: relative
+  &--location
+    margin-left: 3%
+  &__title
+    margin: 0
+    padding-top: 20px
+    color: $light
+    font-size: 35px
+    margin-bottom: 40px
+    font-weight: 500
+    &--min
+      font-size: 21px
+      font-weight: 500
+      margin-bottom: 30px
+  &__img
+    max-width: 25px
+    max-height: 25px
+    margin-right: 10px
+  &__text
+    margin-bottom: 30px
+    line-height: 1.5
+    font-family: "Roboto", Arial, sans-serif
+    font-weight: 400
+
+  &__town
+    display: flex
+    align-items: center
+  &__location
+    font-weight: 400
+    line-height: 1.6
