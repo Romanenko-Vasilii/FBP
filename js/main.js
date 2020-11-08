@@ -34,7 +34,7 @@ $(document).ready(function(){
    */
   $(window).scroll(function () {
       // Если отступ сверху больше 50px то показываем кнопку "Наверх"
-      if ($(this).scrollTop() > 50) {
+      if ($(this).scrollTop() > 100) {
           $('#button-up').fadeIn();
       } else {
           $('#button-up').fadeOut();
