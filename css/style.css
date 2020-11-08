@@ -323,8 +323,10 @@ template {
     position: fixed;
     left: 20px;
     bottom: 50px;
-    background: #fff url("../img/up-arrow-i.png") no-repeat center/cover;
-    z-index: 99; }
+    background: #C0C0C1FF url("../img/up-arrow-i.png") no-repeat center/70%;
+    border-radius: 50%; }
+    .button__up:hover {
+      cursor: pointer; }
   .button--red {
     background-color: #E74C3C;
     color: #FFFFFF;
