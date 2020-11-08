@@ -27,3 +27,4 @@ $('.feetback__row').slick({
     }
   ]
 })
+

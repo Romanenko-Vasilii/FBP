@@ -316,6 +316,15 @@ template {
   border-radius: 3px;
   text-transform: uppercase;
   cursor: pointer; }
+  .button__up {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+    background: #fff url("../img/up-arrow-i.png") no-repeat center/cover;
+    z-index: 99; }
   .button--red {
     background-color: #E74C3C;
     color: #FFFFFF;
@@ -708,16 +717,26 @@ li {
     line-height: 1.6; }
 
 .footer {
-  height: 200px;
+  height: 100%;
   width: 100%;
   background-color: #555; }
-
-.info__text {
-  margin: 0;
-  padding-top: 20px; }
-  .info__text--title {
+  .footer__contant {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     padding-top: 50px;
-    margin: 0; }
+    justify-content: space-around; }
+
+.info {
+  color: #999;
+  font-weight: 400;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0; }
+  .info__text {
+    padding-top: 20px; }
+    .info__text--title {
+      margin: 0; }
 
 .fa {
   text-align: center;
